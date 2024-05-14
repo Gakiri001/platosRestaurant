@@ -22,6 +22,7 @@ body {
   --color-black: #222;
   --color-white: #ffffff;
   --color-primary: #d61c22;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -64,6 +65,11 @@ body {
     display: flex;
     flex-direction: column;
   }
+}
+
+.header-logo-wrapper {
+  text-decoration: none;
+  color: var(--color-black);
 }
 
 .header-logo-text {
