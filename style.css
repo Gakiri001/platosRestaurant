@@ -24,3 +24,32 @@ body {
   font-family: var(--primary-font);
   color: var(--color-black);
 }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 37.5em) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.header-logo-text {
+  text-transform: capitalize;
+}
+
+.header-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--color-black);
+}
