@@ -283,3 +283,14 @@ body {
   text-decoration: none;
   color: #888;
 }
+
+.footer {
+  background-color: #999;
+  padding: 1rem;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
