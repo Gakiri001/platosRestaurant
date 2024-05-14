@@ -58,6 +58,11 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 0.8rem;
+  position: fixed;
+  background-color: var(--color-white);
+  width: 100%;
+  border-bottom: 2px solid #d61c22;
+  z-index: 100;
 }
 
 @media screen and (max-width: 37.5em) {
@@ -98,6 +103,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 6rem;
 }
 
 .hero-textbox {
